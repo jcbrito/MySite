@@ -5,10 +5,8 @@ var fs = require('fs');
 const port = process.env.PORT || 8080
 
 app.get('/', function (req, res) {
-  fs.readFile('index.html', function(err, data) {
-    res.writeHead(200, {'Content-Type': 'text/html'});
-    res.write(data);
-  res.send();
+
+  res.send("Hello World!");
 });
 
 app.listen(port, function () {
