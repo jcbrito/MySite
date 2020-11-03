@@ -2,7 +2,7 @@
   "name": "mysite",
   "version": "1.0.0",
   "description": "my personal website",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jcbrito/MySite/issues"
   },
-  "homepage": "https://github.com/jcbrito/MySite#readme"
+  "homepage": "https://github.com/jcbrito/MySite#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
